@@ -1,7 +1,7 @@
 'use client'
 import { useRouter } from 'next/navigation'
 
-const NewUser = () => {
+const AddUser = () => {
   const router = useRouter();
 
   const handleNewUser = () => {
@@ -13,4 +13,4 @@ const NewUser = () => {
   )
 }
 
-export default NewUser
+export default AddUser

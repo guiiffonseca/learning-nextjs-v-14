@@ -1,12 +1,13 @@
 import Link from 'next/link'
-import NewUser from './components/NewUser';
+import NewUser from './components/AddUser';
 
 export default function Home() {
   return (
     <main>
       <h1>Home</h1>
       <Link href='/users'>Users</Link>
-      <NewUser />
+      <Link href='/about'>About</Link>
+      <Link href='/products'>Products</Link>
     </main>
   )
 }

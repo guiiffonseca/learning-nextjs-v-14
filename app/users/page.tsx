@@ -1,8 +1,12 @@
 import React from 'react'
+import AddUser from '../components/AddUser'
 
 const UsersPage = () => {
   return (
-    <div>UsersPage</div>
+    <div>
+      <h1>Users</h1>
+      <AddUser />
+    </div>
   )
 }
 
